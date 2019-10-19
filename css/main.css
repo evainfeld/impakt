@@ -81,11 +81,7 @@ body{
 	background: #faf9f9;
 	padding: 0px;
 	margin: 0px;
-	text-shadow:
-    -1px -1px 0 #000,
-    1px -1px 0 #000,
-    -1px 1px 0 #000,
-    1px 1px 0 #000;
+
 
 }
 
@@ -171,7 +167,7 @@ header nav li:first-child{
 }
 
 header nav li a{
-	color: #242424;
+	color: #fff;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
 	font-style: bold;
 	font-size: 24px;
@@ -512,12 +508,8 @@ a.app_link{
 .app_features{
 	width: 100%;
 	padding: 75px 10px 20px 10px;
-	background-color: #fff;
-	background-image: -moz-linear-gradient(bottom, #2424242 0%, #2424242 0.27%, #242424 99.46%, #242424 100%);
-	background-image: -o-linear-gradient(bottom, #242424 0%, #242424 0.27%, #242424 99.46%, #242424 100%);
-	background-image: -webkit-linear-gradient(bottom, #242424 0%, #242424 0.27%, #242424 99.46%, #242424 100%);
-	background-image: linear-gradient(bottom, #242424 0%, #242424 0.27%, #242424 99.46%, #242424 100%);
-	
+	background-color: #505050;
+
 }
 
 .app_features h1{
@@ -529,7 +521,7 @@ a.app_link{
 }
 
 .app_features p{
-	color: #e0f7eb;
+	color: #fff;
 	font-family:  Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	text-align: justify;
 	font-size: 16px;
