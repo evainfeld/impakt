@@ -112,7 +112,7 @@ header{
 	width: 100%;
 	height: 200px;
 	z-index: 99;
-	background-color: #53131f;
+	background-color: #242424;
 }
 
 header .logo{
@@ -128,7 +128,7 @@ header .burger_icon{
 	text-transform: uppercase;
 
 	color: #242424;
-	font-family: "open_regular", Helvetica, Arial, sans-serif;
+	font-family: Roboto, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	font-size: 14px;
 
 	-moz-border-radius: 2px;
@@ -164,7 +164,7 @@ header nav li:first-child{
 
 header nav li a{
 	color: #fff;
-	font-family: "open_regular", Helvetica, Arial, sans-serif;
+	font-family: Roboto, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	font-style: bold;
 	font-size: 24px;
 
@@ -237,7 +237,7 @@ header .social li:first-child{
 .hero .caption p{
 	color: #ffffff;
 	text-align: justify;
-	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-family: Roboto, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	font-size: 20px;
 	line-height: 30px;
 	margin: 15px 0 35px 0;
@@ -374,7 +374,7 @@ a.app_link{
 	width: 100%;
 	padding: 25px 0;
 	background: #f3f3f3;
-	font-family:  Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-family:  Roboto, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 }
 
 .featured_on ul{
@@ -404,7 +404,7 @@ a.app_link{
 .about{
 	padding: 100px 0;
 	text-align: justify;
-	font-family:  Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-family:  Roboto, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	text-shadow: none;
 }
 
@@ -503,22 +503,22 @@ a.app_link{
 
 .app_features{
 	width: 100%;
-	padding: 75px 10px 20px 10px;
+	padding: 10px 10px 20px 10px;
 	background-color: #fff;
 
 }
 
 .app_features h1{
 	color: #242424;
-	font-family:  Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	font-size: 20px;
+	font-family: Roboto, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-size: 24px;
 	margin: 50px 0 0 0;
 	word-break: break-word;
 }
 
 .app_features p{
 	color: #242424;
-	font-family:  Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-family:  Roboto, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	text-align: justify;
 	font-size: 16px;
 	margin: 30px 0 0 0;
@@ -545,14 +545,14 @@ a.app_link{
 /*		Testimonials section 		*/
 
 .testimonials{
-	padding: 100px 0;
-	font-family:  Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	padding: 40px 0;
+	font-family:  Roboto, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
 	text-shadow: none;
-	background: #53131f;
+	background: #242424;
 }
 
 .testimonials .testimonials_list{
-	max-width: 90%;
+	max-width: 100%;
 	margin: 0 auto;
 }
 
@@ -579,15 +579,21 @@ a.app_link{
 	display: block;
 }
 
+.testimonials .testimonials_list blockquote .author1{
+	color: #fff;
+	font-size: 30px;
+	margin-bottom: 10px; 
+}
+
 .testimonials .testimonials_list blockquote .author{
 	color: #fff;
-	font-size: 24px;
+	font-size: 20px;
 	margin-bottom: 10px; 
 }
 
 .testimonials .testimonials_list blockquote .job{
 	color: #fff;
-	font-size: 20px;
+	font-size: 16px;
 }
 
 .#tslider{
@@ -599,7 +605,7 @@ a.app_link{
 	display: block;
 	width: 100%;
 	text-align: center;
-	margin-top: 40px;
+	margin-top: -140px;
 	padding: 0;
 }
 
