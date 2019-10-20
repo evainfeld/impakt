@@ -605,7 +605,7 @@ a.app_link{
 	display: block;
 	width: 100%;
 	text-align: center;
-	margin-top: -140px;
+	margin-top: 40px;
 	padding: 0;
 }
 
@@ -644,7 +644,6 @@ a.app_link{
 #tslider .owl-controls .owl-next:hover{
 	background-position: -33px 0;
 }
-
 
 
 
