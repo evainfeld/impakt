@@ -408,6 +408,9 @@ a.app_link{
 	text-shadow: none;
 }
 
+
+
+
 .about .iphone{
 	max-width: 339px;
 	position: relative;
@@ -858,6 +861,16 @@ footer .copyright a{
 		margin-left: 10px;
 	}
 
+	.about{
+	padding: 40px 0;
+	text-align: justify;
+	font-family:  Roboto, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	text-shadow: none;
+	}
+
+	
+
+
 
 
 
@@ -899,7 +912,8 @@ footer .copyright a{
 		text-align: center;
 		margin: 0;
 	}
-
+	
+	
 	.about .features_list ul li{
 		text-indent: 0;
 		background: transparent!important;
