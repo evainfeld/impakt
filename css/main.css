@@ -409,7 +409,10 @@ a.app_link{
 	text-shadow: none;
 }
 
-
+.about .h2{
+font-size: 14px;
+font-weight: bold;
+}
 
 
 .about .iphone{
@@ -438,15 +441,6 @@ a.app_link{
 	word-break: break-word;
 }
 
-.about .features_list h2{
-	color: #555;
-	font-family: "open_bold", Helvetica, Arial, sans-serif;
-	font-size: 24px;
-	font-weight: bold;
-	line-height: 46px;
-	margin: 0 0 20px 0;
-	word-break: break-word;
-}
 
 .about .features_list p{
 	color: #333;
