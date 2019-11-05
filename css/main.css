@@ -438,6 +438,16 @@ a.app_link{
 	word-break: break-word;
 }
 
+.about .features_list h2{
+	color: #555;
+	font-family: "open_bold", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-weight: bold;
+	line-height: 46px;
+	margin: 0 0 20px 0;
+	word-break: break-word;
+}
+
 .about .features_list p{
 	color: #333;
 	font-family: "open_semibold", Helvetica, Arial, sans-serif;
@@ -519,6 +529,7 @@ a.app_link{
 	margin: 50px 0 0 0;
 	word-break: break-word;
 }
+
 
 .app_features p{
 	color: #242424;
