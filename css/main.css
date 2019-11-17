@@ -110,10 +110,10 @@ header{
 	position: relative;
 	display: block;
 	width: 100%;
-	height: 200px;
+	height: 185px;
 	z-index: 99;
 	background-color: #242424;
-	background-image: linear-gradient(#6b1224, black);
+	background-image: linear-gradient(#016480,black);
 }
 
 header .logo{
@@ -263,6 +263,8 @@ a.app_store_btn{
 	font-size: 16px;
 }
 
+
+
 .play_icon,
 .android_icon,
 .iphone_icon{
@@ -409,10 +411,6 @@ a.app_link{
 	text-shadow: none;
 }
 
-.about .h2{
-font-size: 14px;
-font-weight: bold;
-}
 
 
 .about .iphone{
