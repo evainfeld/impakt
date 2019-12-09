@@ -238,7 +238,7 @@ header .social li:first-child{
 .hero .caption p{
 	color: #ffffff;
 	text-align: justify;
-	font-family: Roboto, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-family: Roboto, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "thin", "serif";
 	font-size: 20px;
 	line-height: 30px;
 	margin: 15px 0 35px 0;
