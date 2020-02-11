@@ -174,7 +174,7 @@ header{
 	height: 185px;
 	z-index: 99;
 	background-color: #fff;
-	background-image: linear-gradient(#1c1463,black);
+	background-image: linear-gradient(to top right,#101028,#101028,#10105E);
 }
 
 header .logo{
@@ -630,8 +630,7 @@ a.app_link{
 	font-family:  Roboto;
 	text-shadow: none;
 	background: #ff1c59;
-	background-image: linear-gradient(#1c1463,#ff1c59);
-}
+	background-image: linear-gradient(to top right,#101028,#101028,#10105E);}
 
 /*07908f,2c90d8    */
 
@@ -647,7 +646,8 @@ a.app_link{
 }
 
 .testimonials .testimonials_list blockquote p{
-	color: #ccf;
+	color: #0032E8;
+	opacity: 1;
 	font-size: 16px;
 	margin-bottom: 10px;
 	line-height: 20px;
@@ -664,14 +664,14 @@ a.app_link{
 }
 
 .testimonials .testimonials_list blockquote .author1{
-	color: #fff;
+	color: #0032E8;
 	font-family: termina;
 	font-size: 30px;
 	margin-bottom: 10px; 
 }
 
 .testimonials .testimonials_list blockquote .author{
-	color: #ccf;
+	color: #0032E8;
 	font-family: 'Exo 2';
 	font-weight: 700;
 	font-size: 20px;
@@ -679,7 +679,7 @@ a.app_link{
 }
 
 .testimonials .testimonials_list blockquote .job{
-	color: #ccf;
+	color: #0032E8;
 	font-size: 16px;
 	font-family: 'Exo 2';
 	font-weight: 400;
