@@ -173,8 +173,11 @@ header{
 	width: 100%;
 	height: 185px;
 	z-index: 99;
-	background-color: #fff;
 	background-image: linear-gradient(to top right,#101028,#101028,#10105E);
+	background: url('../img/solidarity.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #101028;
 }
 
 header .logo{
@@ -217,7 +220,7 @@ header nav{
 
 header nav li{
 	float: left;
-	margin-left: 40px;
+	margin-left: 20px;
 }
 
 header nav li:first-child{
@@ -225,11 +228,11 @@ header nav li:first-child{
 }
 
 header nav li a{
-	color: #1c1463;
+	color: #0032E8;
 	font-family: 'Exo 2';
 	font-weight: 400;
 	font-style: bold;
-	font-size: 24px;
+	font-size: 20px;
 
 	transition: all .2s linear;
 	-o-transition: all .2s linear;
@@ -888,6 +891,22 @@ footer .copyright a{
 /*		Responsive CSS 		*/
 
 @media (max-width: 360px) {
+
+	header{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 120px;
+	z-index: 99;
+	background: url('../img/solidarity_thin.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-color: #101028;
+}
+
+
+
+
 	.featured_on li{
 		display: block;
 		width: 100%;
@@ -898,6 +917,20 @@ footer .copyright a{
 
 
 	/*		Header 		*/
+	header{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 120px;
+	z-index: 99;
+	background: url('../img/solidarity.png');
+	background-repeat: no-repeat;
+	background-size: 332px 100px;
+	background-position: center;
+	background-color: #101028;
+}
+	
+	
 	header .logo{
 		margin-right: 0;
 	}
