@@ -627,7 +627,7 @@ a.app_link{
 	background-image: linear-gradient(#10105E,#101028,#101028,#101028,#10105E);
 	background: url('../img/circuits.png');
 	background-repeat: no-repeat;
-	background-width: 100%;
+	background-width: cover;
 	background-color: #10105E;
 	height: auto;
 	font-weight: 200;
