@@ -171,12 +171,13 @@ header{
 	position: relative;
 	display: block;
 	width: 100%;
-	height: 185px;
+	height: 70px;
 	z-index: 99;
-	background-image: linear-gradient(to top right,#101028,#101028,#10105E);
+	background-image: linear-gradient(to top right,#101028,#10105E);
 	background: url('../img/solidarity.png');
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: 10% 50%;
+	padding-left: 100px;
 	background-color: #101028;
 }
 
@@ -214,7 +215,9 @@ header .burger_icon.active{
 }
 
 header nav{
-	margin-top: 20px;
+	position: 90% 50%;
+	margin-top: 55px;
+	margin-right: 10%;
 	display: table-cell;
 }
 
@@ -275,37 +278,37 @@ header .social li:first-child{
 	display: block;
 	position: relative;
 	width: 100%;
-	height: 800px;
-	background: url('../img/hero.jpg');	
+	height: 350px;
+	background-color: #0032e8;
+	background: url('../img/img1.png');
 	background-size: cover;
-	background-position: right;
+	background-position: center;
+    background-repeat: no-repeat;
+	background-color: #101028;
 }
 
 .hero .caption{
 	position: absolute;
-	max-width: 550px;
-	margin-left: 0px;
-	top: 50%;
-	transform:translate(0,-50%);
-	-webkit-transform:translate(0,-50%);
-	-moz-transform:translate(0,-50%);
-	-o-transform:translate(0,-50%);
+	right: 12%;
+	max-width: 450px;
+	bottom: 5%;
+	text-align: right;
 }
 
 .hero .caption h1{
 	color: #fff;
-	font-family: "open_bold", Helvetica, Arial, sans-serif;
-	font-size: 34px;
-	font-weight: bold;
+	font-family: 'Exo 2';
+	font-size: 20px;
 	word-break: break-word;
 }
 
 .hero .caption p{
 	color: #ffffff;
 	text-align: justify;
-	font-family: Roboto, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "thin", "serif";
-	font-size: 20px;
-	line-height: 30px;
+	font-family: Roboto;
+	font-size: 14px;
+	font-weight: 200;
+	line-height: 20px;
 	margin: 15px 0 35px 0;
 }
 
@@ -313,19 +316,42 @@ header .social li:first-child{
 	margin: 0;
 }
 
+.image-cropper {
+    height: auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-cropper img{
+    display: block;
+    margin: auto auto;
+	margin-top: 30px;
+	margin-bottom: 80px;
+    height: auto;
+    width: 200px; 
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;  
+}
+
 a.app_store_btn{
 	display: inline-block;
 	text-decoration: none;
 	padding: 15px 40px;
-	border: 2px solid #AAAAAA;
+	width: 75%;
+	height: 150px;
+	border: 0px solid #10105E;
 	-moz-border-radius: 2px;
 	-webkit-border-radius: 2px;
-	border-radius: 2px;
-	margin: 20px 20px 10px 0;
+	border-radius: 1px;
+	margin: 10px 10px 10px 10px;
 
-	color: #AAAAAA;
-	font-family: "open_semibold", Helvetica, Arial, sans-serif;
-	font-size: 16px;
+	color: #0032e8;
+	font-family: 'Exo 2';
+	font-weight: 400;
+	font-size: 20px;
 }
 
 
@@ -440,9 +466,19 @@ a.app_link{
 
 .featured_on{
 	width: 100%;
-	padding: 25px 0;
-	background: #f3f3f3;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	padding-left: 2%;
+	padding-right: 2%;
+	background: #fff;
 	font-family:  Roboto, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+}
+
+.featured_on .team_name{
+	color: #101028;
+	font-family: termina;
+	font-size: 36px;
+	margin-bottom: 0; 
 }
 
 .featured_on ul{
@@ -451,6 +487,8 @@ a.app_link{
 
 .featured_on li{
 	position: relative;
+	margin-left: 0px;
+	text-align: right;
 	height: 100%;
 }
 
@@ -585,29 +623,95 @@ a.app_link{
 
 .app_features{
 	width: 100%;
-	padding: 40px 10px 20px 10px;
-	background-color: #fff;
-
+	padding: 80px 10% 40px 10%;
+	background-image: linear-gradient(#10105E,#101028,#101028,#101028,#10105E);
+	background: url('../img/circuits.png');
+	background-repeat: no-repeat;
+	background-width: 100%;
+	background-color: #10105E;
+	height: auto;
+	font-weight: 200;
 }
 
+
 .app_features h1{
-	color: #1c1463;
+	color: #fff;
+	font-family: Roboto;
+	font-weight: 300;
+	font-size: 20px;
+	margin: 0px 0 0 -5%;
+	line-height: 30px;
+	word-break: break-word;
+}
+
+.app_features2 h1{
+	color: #fff;
+	font-family: Roboto;
+	font-weight: 200;
+	font-size: 20px;
+	margin: 0px 0 0 -5%;
+	line-height: 30px;
+	word-break: break-word;
+}
+
+.app_features h2{
+	color: #fff;
 	font-family: 'Exo 2';
-	font-weight: 700;
-	font-size: 24px;
-	margin: 50px 10% 0 10%;
+	font-weight: 200;
+	font-size: 32px;
+	margin: 0 0 0 -3%;
 	word-break: break-word;
 }
 
 
 .app_features p{
-	color: #1c1463;
-	font-family:  Roboto, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-	text-align: justify;
-	font-size: 16px;
-	margin: 30px 10% 0 10%;
-	line-height: 28px;
+	color: #fff;
+	font-family: Roboto;
+	font-size: 18px;
+	font-weight: 300;
+	margin: 10px 10% 10px -5%;
+	line-height: 30px;
 }
+
+.app_features .portrait{
+    height: auto;
+    position: relative;
+    overflow: hidden;
+	transform: translate(-10%, 0%);
+}
+
+.app_features .portrait img{
+    display: block;
+    margin: auto auto;
+	margin-left: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    height: auto;
+    width: 175px; 
+}
+
+.app_features .screenshot{
+    height: auto;
+    position: relative;
+    overflow: hidden;
+	transform: translate(-40%, -100px);
+}
+
+
+.app_features .screenshot img{
+    display: block;
+    margin: auto auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 125px; 
+}
+.app_features .story{
+	transform: translate(-5%, 0%);
+}
+
+
+
+
 
 .app_features .details{
 	margin-bottom: 80px;
@@ -619,40 +723,68 @@ a.app_link{
 
 
 
+.transition0{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 20px;
+	z-index: 99;
+	background-image: linear-gradient(#10105E,#0032e8);
+}
+
+
+.transition1{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 20px;
+	z-index: 99;
+	background-image: linear-gradient(#10105E,#101028);
+}
 
 
 
-
+.transition2{
+	position: relative;
+	display: block;
+	width: 100%;
+	height: 20px;
+	z-index: 99;
+	background-image: linear-gradient(#10105E,#0032e8,#10105E);
+}
 
 
 
 /*		Testimonials section 		*/
 
 .testimonials{
-	padding: 40px 0;
+	padding: 50px 0 50px 0;
 	font-family:  Roboto;
-	text-shadow: none;
-	background: #ff1c59;
-	background-image: linear-gradient(to top right,#101028,#101028,#10105E);}
+	background-image: linear-gradient(to bottom right, #101028,#101028, #10105E);
+	text-align: left;
+}
+
+
+
+
 
 /*07908f,2c90d8    */
 
 .testimonials .testimonials_list{
 	max-width: 100%;
-	margin: 0 auto;
+	margin: 0;
 }
 
 .testimonials .testimonials_list blockquote{
 	border: 0;
-	padding: 0;
 	margin: 0;
 }
 
 .testimonials .testimonials_list blockquote p{
-	color: #0032E8;
+	color: #1133ff;
 	opacity: 1;
 	font-size: 16px;
-	margin-bottom: 10px;
+	margin-bottom: -10px;
 	line-height: 20px;
 }
 
@@ -666,26 +798,27 @@ a.app_link{
 	display: block;
 }
 
-.testimonials .testimonials_list blockquote .author1{
-	color: #0032E8;
-	font-family: termina;
-	font-size: 30px;
+.testimonials .testimonials_list blockquote .name{
+	color: #1133ff;
+	font-family: 'Exo 2';
+	font-weight: 600;
+	font-size: 28px;
 	margin-bottom: 10px; 
 }
 
 .testimonials .testimonials_list blockquote .author{
-	color: #0032E8;
+	color: #1133ff;
 	font-family: 'Exo 2';
-	font-weight: 700;
+	font-weight: 500;
 	font-size: 20px;
 	margin-bottom: 10px; 
 }
 
 .testimonials .testimonials_list blockquote .job{
 	color: #0032E8;
-	font-size: 16px;
+	font-size: 20px;
 	font-family: 'Exo 2';
-	font-weight: 400;
+	font-weight: 500;
 }
 
 .#tslider{
@@ -697,7 +830,7 @@ a.app_link{
 	display: block;
 	width: 100%;
 	text-align: center;
-	margin-top: 40px;
+	margin-top: 0px;
 	padding: 0;
 }
 
@@ -1022,7 +1155,17 @@ footer .copyright a{
 	}
 
 
+.app_features{
+	width: 100%;
+	padding: 40px 10px 20px 10px;
+	background-color: #10105E;
+}
 
+.app_features2{
+	width: 100%;
+	padding: 40px 10px 20px 10px;
+	background-color: #0032E8;
+}
 
 
 
