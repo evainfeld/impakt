@@ -246,7 +246,7 @@ header nav li a{
 header nav li a:hover,
 header nav li a:focus{
 	text-decoration: none;
-	color: #B7EFD1!important;
+	color: #6698ff!important;
 }
 
 header .social{
@@ -326,7 +326,7 @@ header .social li:first-child{
     display: block;
     margin: auto auto;
 	margin-top: 30px;
-	margin-bottom: 80px;
+	margin-bottom: 30px;
     height: auto;
     width: 200px; 
     -webkit-border-radius: 50%;
@@ -815,7 +815,7 @@ a.app_link{
 }
 
 .testimonials .testimonials_list blockquote .job{
-	color: #0032E8;
+	color: #1133ff;
 	font-size: 20px;
 	font-family: 'Exo 2';
 	font-weight: 500;
@@ -830,7 +830,7 @@ a.app_link{
 	display: block;
 	width: 100%;
 	text-align: center;
-	margin-top: 0px;
+	margin-top: 20px;
 	padding: 0;
 }
 
