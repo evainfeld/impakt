@@ -471,7 +471,8 @@ a.app_link{
 	padding-left: 2%;
 	padding-right: 2%;
 	background: #fff;
-	font-family:  Roboto, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
+	font-family:  'Exo 2';
+	font-size: 24px;
 }
 
 .featured_on .team_name{
