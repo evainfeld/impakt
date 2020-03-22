@@ -1121,6 +1121,42 @@ footer .copyright a{
 	text-shadow: none;
 	}
 
+.app_features .portrait{
+    height: auto;
+    position: relative;
+    overflow: hidden;
+	transform: translate(0%, 0%);
+}
+
+.app_features .portrait img{
+    display: block;
+    margin: auto auto;
+	margin-left: 0;
+	margin-top: 10px;
+	margin-bottom: 10px;
+    height: auto;
+    width: 175px; 
+}
+
+.app_features .screenshot{
+    height: auto;
+    position: relative;
+    overflow: hidden;
+	transform: translate(0%, 0%);
+}
+
+
+.app_features .screenshot img{
+    display: block;
+    margin: auto auto;
+	margin-top: 0;
+	margin-bottom: 0;
+	width: 125px; 
+}
+.app_features .story{
+	transform: translate(0%, 0%);
+}
+
 	
 
 
