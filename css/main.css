@@ -1125,7 +1125,7 @@ footer .copyright a{
     height: auto;
     position: relative;
     overflow: hidden;
-	transform: translate(0%, 0%);
+	transform: translate(20%, 0%);
 }
 
 .app_features .portrait img{
