@@ -280,7 +280,7 @@ header .social li:first-child{
 	width: 100%;
 	height: 350px;
 	background-color: #0032e8;
-	background: url('../img/img1.png');
+	background: url('../img/img1.jpg');
 	background-size: cover;
 	background-position: center;
     background-repeat: no-repeat;
@@ -519,7 +519,7 @@ a.app_link{
 .about h1{
 	color: #1c1463;
 	font-family: 'Exo 2';
-	font-size: 24px;
+	font-size: 32px;
 	font-weight: bold;
 	line-height: 30px;
 	margin: 5px 0 5px 0;
