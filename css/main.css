@@ -152,43 +152,8 @@ a:focus{
 }
 
 .container{
-	max-width: 90%;
-	padding-right:15px;
-	padding-left:15px;
-	margin-right:auto;
-	margin-left:auto}
-	
-@media (min-width:768px){.container{width:750px}}
-
-@media (min-width:992px){.container{width:970px}}
-
-@media (min-width:1200px){.container{width:1170px}}
-
-@media (min-width:1400px){.container{width:1330px}}
-
-@media (min-width:1600px){.container{width:1500px}}
-
-.container2{
-	max-width: 90%;
-	padding-right:15px;
-	padding-left:15px;
-	margin-right:auto;
-	margin-left:auto}
-	
-@media (min-width:768px){.container2{width:750px}}
-
-@media (min-width:992px){.container2{width:970px}}
-
-@media (min-width:1200px){.container2{width:1170px}}
-
-
-
-
-.container-fluid{padding-right:15px;
-	padding-left:15px;
-	margin-right:auto;
-	margin-left:auto}
-
+	max-width: 1130px;
+}
 
 
 
@@ -208,12 +173,12 @@ header{
 	width: 100%;
 	height: 70px;
 	z-index: 99;
-	background-image: linear-gradient(to top right,#0a0a1a,#10105E);
-	background: url('../img/name.png');
+	background-image: linear-gradient(to top right,#101028,#10105E);
+	background: url('../img/solidarity.png');
 	background-repeat: no-repeat;
 	background-position: 10% 50%;
-	padding-left: 50px;
-	background-color: #0a0a1a;
+	padding-left: 100px;
+	background-color: #101028;
 }
 
 header .logo{
@@ -252,7 +217,7 @@ header .burger_icon.active{
 header nav{
 	position: 90% 50%;
 	margin-top: 55px;
-	margin-right: 0%;
+	margin-right: 10%;
 	display: table-cell;
 }
 
@@ -266,11 +231,11 @@ header nav li:first-child{
 }
 
 header nav li a{
-	color: #4189c3;
+	color: #0032E8;
 	font-family: 'Exo 2';
-	font-weight: 700;
+	font-weight: 400;
 	font-style: bold;
-	font-size: 26px;
+	font-size: 20px;
 
 	transition: all .2s linear;
 	-o-transition: all .2s linear;
@@ -281,16 +246,8 @@ header nav li a{
 header nav li a:hover,
 header nav li a:focus{
 	text-decoration: none;
-	color: #b0c8f8!important;
+	color: #6698ff!important;
 }
-
-
-a:hover,
-a:focus{
-	text-decoration: none;
-	color: #b0c8f8!important;
-}
-
 
 header .social{
 	display: table-cell;
@@ -327,7 +284,7 @@ header .social li:first-child{
 	background-size: cover;
 	background-position: center;
     background-repeat: no-repeat;
-	background-color: #0a0a1a;
+	background-color: #101028;
 }
 
 .hero .caption{
@@ -391,7 +348,7 @@ a.app_store_btn{
 	border-radius: 1px;
 	margin: 10px 10px 10px 10px;
 
-	color: #4189c3;
+	color: #0032e8;
 	font-family: 'Exo 2';
 	font-weight: 400;
 	font-size: 20px;
@@ -515,11 +472,11 @@ a.app_link{
 	padding-right: 2%;
 	background: #fff;
 	font-family:  'Exo 2';
-	font-size: 20px;
+	font-size: 24px;
 }
 
 .featured_on .team_name{
-	color: #0a0a1a;
+	color: #101028;
 	font-family: termina;
 	font-size: 36px;
 	margin-bottom: 0; 
@@ -668,7 +625,7 @@ a.app_link{
 .app_features{
 	width: 100%;
 	padding: 80px 10% 40px 10%;
-	background-image: linear-gradient(#10105E,#0a0a1a,#0a0a1a,#0a0a1a,#10105E);
+	background-image: linear-gradient(#10105E,#101028,#101028,#101028,#10105E);
 	background-repeat: no-repeat;
 	background-width: cover;
 	background-color: #10105E;
@@ -706,14 +663,6 @@ a.app_link{
 	word-break: break-word;
 }
 
-.h4{
-	color: #fff;
-	font-family: 'Exo 2';
-	font-weight: 200;
-	font-size: 20px;
-	margin: 0 0 0 -3%;
-	word-break: break-word;
-}
 
 .app_features p{
 	color: #fff;
@@ -780,7 +729,7 @@ a.app_link{
 	width: 100%;
 	height: 20px;
 	z-index: 99;
-	background-image: linear-gradient(#10105E,#4189c3);
+	background-image: linear-gradient(#10105E,#0032e8);
 }
 
 
@@ -790,7 +739,7 @@ a.app_link{
 	width: 100%;
 	height: 20px;
 	z-index: 99;
-	background-image: linear-gradient(#10105E,#0a0a1a);
+	background-image: linear-gradient(#10105E,#101028);
 }
 
 
@@ -801,7 +750,7 @@ a.app_link{
 	width: 100%;
 	height: 20px;
 	z-index: 99;
-	background-image: linear-gradient(#10105E,#4189c3,#10105E);
+	background-image: linear-gradient(#10105E,#0032e8,#10105E);
 }
 
 
@@ -809,66 +758,15 @@ a.app_link{
 /*		Testimonials section 		*/
 
 .testimonials{
-	padding: 50px 0 0px 0;
+	padding: 50px 0 50px 0;
 	font-family:  Roboto;
-	background-image: linear-gradient(to bottom right, #0a0a1a,#0a0a1a, #10105E); 
+	background-image: linear-gradient(to bottom right, #101028,#101028, #10105E);
 	text-align: left;
 }
 
-.testimonials2{
-	padding: 50px 0 0px 0;
-	font-family:  Roboto;
-	background-image: linear-gradient(to top right, #0a0a1a,#0a0a1a, #10105E); 
-	text-align: left;
-}
 
-.button-epk {
-	
-        border: 2px solid #4189c3;
-        color: #4189c3;
-        background-color: #1f0d30;
-		position: center;
-        padding: 5px 20px;
-        text-align: center;
-        text-decoration: none;
-        display: block;
-		margin-left: auto;
-		margin-right: auto;
-        transition-duration: 0.4s;
-        cursor: pointer;
-		border-radius: 15px;
-		box-shadow: 0 9px #000000;
-  }
 
-  .button-epk2 {
-	color: #4189c3;
-	position: center;
-	width: 100%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	transition-duration: 0.4s;
-	cursor: pointer;
-	border-radius: 15px;
-}
 
-.button-epk3 {
-	color: #4189c3;
-	position: center;
-	width: 100%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	transition-duration: 0.4s;
-	cursor: pointer;
-	border-radius: 15px;
-}
-
-  .button-epk:active {
-	background-color: #0a0a1a;
-	box-shadow: 0 5px #666;
-	transform: translateY(4px);
-  }
 
 /*07908f,2c90d8    */
 
@@ -883,7 +781,7 @@ a.app_link{
 }
 
 .testimonials .testimonials_list blockquote p{
-	color: #4189c3;
+	color: #1133ff;
 	opacity: 1;
 	font-size: 16px;
 	margin-bottom: -10px;
@@ -901,7 +799,7 @@ a.app_link{
 }
 
 .testimonials .testimonials_list blockquote .name{
-	color: #4189c3;
+	color: #1133ff;
 	font-family: 'Exo 2';
 	font-weight: 600;
 	font-size: 28px;
@@ -909,7 +807,7 @@ a.app_link{
 }
 
 .testimonials .testimonials_list blockquote .author{
-	color: #4189c3;
+	color: #1133ff;
 	font-family: 'Exo 2';
 	font-weight: 500;
 	font-size: 20px;
@@ -917,68 +815,11 @@ a.app_link{
 }
 
 .testimonials .testimonials_list blockquote .job{
-	color: #4189c3;
+	color: #1133ff;
 	font-size: 20px;
 	font-family: 'Exo 2';
 	font-weight: 500;
 }
-
-/* testimonials 2 */
-
-
-.testimonials2 .testimonials_list{
-	max-width: 100%;
-	margin: 0;
-}
-
-.carousel-inner .testimonials_list blockquote{
-	border: 0;
-	margin: 0;
-}
-
-.carousel-inner .testimonials_list blockquote p{
-	color: #4189c3;
-	opacity: 1;
-	font-size: 16px;
-	margin-bottom: -10px;
-	line-height: 20px;
-}
-
-.carousel-inner .testimonials_list blockquote footer:before,
-.carousel-inner .testimonials_list blockquote footer:after{
-	content: none;
-}
-
-.carousel-inner .testimonials_list blockquote .author,
-.carousel-inner .testimonials_list blockquote .job{
-	display: block;
-}
-
-.carousel-inner .testimonials_list blockquote .name{
-	color: #4189c3;
-	font-family: 'Exo 2';
-	font-weight: 600;
-	font-size: 28px;
-	margin-bottom: 10px; 
-}
-
-.carousel-inner .testimonials_list blockquote .author{
-	color: #4189c3;
-	font-family: 'Exo 2';
-	font-weight: 500;
-	font-size: 20px;
-	margin-bottom: 10px; 
-}
-
-.carousel-inner .testimonials_list blockquote .job{
-	color: #4189c3;
-	font-size: 20px;
-	font-family: 'Exo 2';
-	font-weight: 500;
-}
-
-
-/*  */
 
 .#tslider{
 	text-align: center!important;
@@ -1028,6 +869,8 @@ a.app_link{
 #tslider .owl-controls .owl-next:hover{
 	background-position: -33px 0;
 }
+
+
 
 
 
@@ -1146,11 +989,8 @@ a.app_link{
 /*		Footer 		*/
 
 footer{
-	padding: 50px 0;
+	padding: 100px 0;
 	text-align: center;
-	font-family: "open_regular", Helvetica, Arial, sans-serif;
-	font-size: 24px;
-	color:#000000;
 }
 
 footer .app_platform li{
@@ -1163,15 +1003,14 @@ footer .app_platform li:first-child{
 
 footer .copyright{
 	margin-top: 60px;
-	margin-bottom: 60px;
-	color: #000000;
+	color: #757171;
 	font-family: "open_regular", Helvetica, Arial, sans-serif;
-	font-size: 20px;
+	font-size: 12px;
 	letter-spacing: .5px;
 }
 
 footer .copyright a{
-	color: #000000;
+	color: #565555;
 }
 
 
@@ -1188,7 +1027,7 @@ footer .copyright a{
 	.app_features{
 		width: 100%;
 		padding: 80px 10% 40px 10%;
-		background-image: linear-gradient(#10105E,#0a0a1a,#0a0a1a,#0a0a1a,#10105E);
+		background-image: linear-gradient(#10105E,#101028,#101028,#101028,#10105E);
 		background-repeat: no-repeat;
 		background-width: cover;
 		background-color: #10105E;
@@ -1213,7 +1052,7 @@ footer .copyright a{
 	background: url('../img/solidarity_thin.png');
 	background-repeat: no-repeat;
 	background-position: center;
-	background-color: #0a0a1a;
+	background-color: #101028;
 }
 
 
@@ -1239,7 +1078,7 @@ footer .copyright a{
 	background-repeat: no-repeat;
 	background-size: 332px 100px;
 	background-position: center;
-	background-color: #0a0a1a;
+	background-color: #101028;
 }
 	
 	
@@ -1379,7 +1218,7 @@ footer .copyright a{
 .app_features2{
 	width: 100%;
 	padding: 40px 10px 20px 10px;
-	background-color: #4189c3;
+	background-color: #0032E8;
 }
 
 

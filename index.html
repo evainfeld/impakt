@@ -1,284 +1,481 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-us">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Brett Alexander Preston — Engineer &amp; Artist</title>
-  <meta name="description" content="Portfolio of Brett Alexander Preston — software engineer, music producer, game developer, and 3D artist.">
-  <meta name="author" content="Brett Alexander Preston">
+	<!--  App Title  -->
+	<title>IMPAKT</title>
+	<!--  App Description  -->
+	<meta name="description" content="...."/>
+	<meta charset="utf-8">
+	<meta name="author" content="DrQ">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0" />
 
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+	<link rel="stylesheet" type="text/css" href="css/owl.transitions.css"/>
+	<link rel="stylesheet" type="text/css" href="css/owl.carousel.css"/>
+	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
 
-  <!-- Styles -->
-  <link rel="stylesheet" href="css/portfolio.css">
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/ajaxchimp.js"></script>
+	<script type="text/javascript" src="js/scrollTo.js"></script>
+	<script type="text/javascript" src="js/owl.carousel.min.js"></script>
+	<script type="text/javascript" src="js/wow.js"></script>
+	<script type="text/javascript" src="js/parallax.js"></script>
+	<script type="text/javascript" src="js/nicescroll.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
 </head>
 <body>
-
-<!-- ===== Navigation ===== -->
-<nav class="site-nav">
-  <div class="container nav-inner">
-    <a href="#" class="nav-logo">Brett Preston</a>
-
-    <button class="nav-toggle" aria-label="Toggle menu" onclick="document.querySelector('.nav-links').classList.toggle('open')">
-      <span></span><span></span><span></span>
-    </button>
-
-    <ul class="nav-links">
-      <li><a href="#projects">Software</a></li>
-      <li><a href="#gamedev">GameDev</a></li>
-      <li><a href="https://zaga.music">Music</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-
-    <div class="nav-social">
-      <a href="https://github.com/brettpreston" aria-label="GitHub">
-        <svg viewBox="0 0 24 24"><path d="M12 .3a12 12 0 00-3.8 23.38c.6.12.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61a3.18 3.18 0 00-1.33-1.76c-1.09-.74.08-.73.08-.73a2.52 2.52 0 011.84 1.24 2.56 2.56 0 003.5 1 2.56 2.56 0 01.76-1.6c-2.67-.3-5.47-1.33-5.47-5.93a4.64 4.64 0 011.24-3.22 4.3 4.3 0 01.12-3.18s1-.32 3.3 1.23a11.38 11.38 0 016 0c2.28-1.55 3.28-1.23 3.28-1.23a4.3 4.3 0 01.12 3.18 4.64 4.64 0 011.23 3.22c0 4.61-2.8 5.63-5.48 5.92a2.86 2.86 0 01.82 2.22v3.29c0 .32.21.7.82.58A12 12 0 0012 .3z"/></svg>
-      </a>
-      <a href="https://www.linkedin.com/in/brett-alexander-preston-3b95a3121/" aria-label="LinkedIn">
-        <svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05a3.74 3.74 0 013.37-1.85c3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 11-.01-4.13 2.06 2.06 0 01.01 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77A1.75 1.75 0 000 1.73v20.54A1.75 1.75 0 001.77 24h20.45A1.76 1.76 0 0024 22.27V1.73A1.76 1.76 0 0022.22 0z"/></svg>
-      </a>
-    </div>
-  </div>
-</nav>
-
-<!-- ===== Hero ===== -->
-<section class="hero">
-  <div class="container hero-content">
-    <div class="hero-label"> </div>
-    <h1>
 	
-      <span class="gradient-text"> Brett Preston </span> <br></h1>
-	  <h2>Software engineering, audio tools development, <br>
-      music production, game development, and 3D art.<br>
-    </h2>
-    <p class="hero-desc">
-    </p>
-    <div class="hero-cta">
-      <a href="#projects" class="btn btn-primary">View Projects</a>
-      <a href="#contact" class="btn">Get in Touch</a>
-    </div>
-  </div>
-</section>
+	<!--  Header Section  -->
+	<header>
+		<div class="container">
 
-<!-- ===== Featured Project ===== -->
-<section class="section" id="projects">
-  <div class="container">
-    <div class="section-header">
-      <div class="section-label"> </div>
-      <h2 class="section-title">Software</h2>
-    </div>
 
-    <!-- Augmented Hearing -->
-    <div class="featured-project reveal">
-      <div class="featured-body">
-        <div class="featured-tag">Modern audio engineering for hearing health.</div>
-        <h3>Augmented Hearing</h3>
-        <p>
-          Augmented Hearing is an open source solution that brings real-time loudness balancing, hearing-profile personalization, and clearer speech to everyday listening. We are building both a software-first and a hardware alternative to an expensive, outdated hearing technology market.
-		        </p>
-        <div class="tech-tags">
-          <span class="tech-tag">Hearing Aid</span>
-          <span class="tech-tag">Audio DSP</span>
-          <span class="tech-tag">Open Source</span>
-        </div>
-        <div class="project-links">
-          <a href="https://augmentedhearing.ca">augmentedhearing.ca &#8599;</a>
-        </div>
-      </div>
-    </div>
+			<nav class="pull-right">
+				<ul class="list-unstyled">
+					<li class="animated wow fadeInRight" data-wow-delay=".1s"><a href="#app_features">FUNCTIONALITY</a></li>
+					<li class="animated wow fadeInRight" data-wow-delay=".2s"><a href="#team">TEAM</a></li>
+					<li class="animated wow fadeInRight" data-wow-delay=".2s"><a href="#contact">CONTACT</a></li>
+				</ul>
+			</nav>
+<!-- 		
+			<div class="social pull-right">
+				<ul class="list-unstyled">
+					<li class="animated wow fadeInRight" data-wow-delay=".2s"><a href="#"><img src="img/facebook.png" alt="" title=""></a></li>
+					<li class="animated wow fadeInRight" data-wow-delay=".1s"><a href="#"><img src="img/twitter.png" alt="" title=""></a></li>
+					<li class="animated wow fadeInRight" data-wow-delay="0s"><a href="#"><img src="img/google.png" alt="" title=""></a></li>
+				</ul>
+			</div>
+-->
+			<span class="burger_icon">menu</span>
+		</div>
+	</header>
+	<!--  End Header Section  -->
 
-    <!-- Rustic Audio -->
-    <div class="featured-project reveal">
-     <!-- <img src="img/slide-rustic.jpg" alt="Rustic Audio — Rust-based DSP" class="featured-img"> -->
-      <div class="featured-body">
-        <div class="featured-tag">Rust &middot; DSP &middot; NLnet Foundation</div>
-        <h3>Rustic Audio</h3>
-        <p>
-          An open source Rust DSP library, command-line tool and UI for cleaning voice recordings and encoding 
-		  them as highly compressed Opus files. Created for settings where bandwidth is scarce&mdash;such as 
-		  privacy-preserving communication&mdash;while preserving legibility and quality.
-		  Created with the support of NLnet foundation.
-        </p>
-        <div class="tech-tags">
-          <span class="tech-tag">Rust</span>
-          <span class="tech-tag">Audio DSP</span>
-          <span class="tech-tag">Open Source</span>
-        </div>
-        <div class="project-links">
-          <a href="https://github.com/brettpreston/Rustic_Audio">GitHub &#8599;</a>
-          <a href="https://crates.io/crates/rustic_audio_tool">crates.io &#8599;</a>
-        </div>
-      </div>
-    </div>
 
-    <!-- Smaller project cards -->
-    <div class="project-grid stagger reveal">
 
-      <div class="project-card">
-        <div class="card-icon">
-          <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 00-3 3v8a3 3 0 006 0V4a3 3 0 00-3-3z"/><path d="M19 10v2a7 7 0 01-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
-        </div>
-        <h3>Thunderfox</h3>
-        <p>Firefox add-on that normalizes volume across all web media. Processes audio with a multiband compressor and limiter&mdash;no more riding the volume knob.</p>
-        <div class="card-footer">
-          <span class="tech-tag">WebAudio</span>
-          <span class="tech-tag">Firefox</span>
-        </div><br>
-        <div class="project-links">
-          <a href="https://github.com/brettpreston/ThunderFox">GitHub &#8599;</a>
-          <a href="https://addons.mozilla.org/en-US/firefox/addon/thunderfox-loudness-normalizer/">Firefox page &#8599;</a>
-        </div>
+
+
+
+<!--	 Hero Section -->
+	<section class="hero" id="about">
+		<div class="container">
+			<div class="caption">
+				<h1 class="text-uppercase  animated wow fadeInRight">Unlock the energy of your community with Impakt, the all-in-one app framework for grassroots causes.</h1>
+				<p  animated wow fadeInRight">Our platform helps supporters connect, organize, persuade friends to join the cause, and stay safe from potential threats. Our team comprises of top makers and thinkers from both the hacker and progressive political worlds to deliver the best solution for your community. Join Impakt now and take the first step towards empowering your grassroots movement.</p>
+
+			</div>			
+		</div>
+	</section>
+<!--	  End Hero Section   -->
+
+
+
+
+
+
+	<!--  Featured On Section --> 
+	<section class="featured_on">
+	<div class="container">
+
+		<div class="row text-center">
+				<div class="col-sm-4 col-md-4 details animated wow fadeInDown" data-wow-delay=".0s">
+					<a href="#activists" class="app_store_btn text-uppercase animated wow fadeInLeft"><span><img src="img/hands-helping.png"></br>FOR ACTIVISTS</span></a>
+				</div>
+				
+				<div class="col-sm-4 col-md-4 details animated wow fadeInDown" data-wow-delay="0s">
+					<a href="#organisers" class="app_store_btn text-uppercase animated wow fadeInLeft"><span><img src="img/slideshare.png"></br>FOR ORGANISERS</span></a>
+				</div>
+				
+				<div class="col-sm-4 col-md-4 details animated wow fadeInDown" data-wow-delay="0s">
+					<a href="#security" class="app_store_btn text-uppercase animated wow fadeInLeft"><span><img src="img/lock.png"></br>SECURITY</span></a>
+				</div>
+		</div>
+	</div>
+
+	</section>
+	<!-- End Featured On Section  -->
+
+
+
+<section class="app_features">
+<div class="container">
+
+<div class="col-sm-12 text-left" id="activists">
+
+<div class="col-sm-12 text-left">
+<h2 class="text-uppercase animated wow fadeInLeft">Community Advantage</h2></br>
+	<div class="col-md-3"> 
+  <!-- character --><figure class="portrait"><div class="image-cropper"><img src="img/tracy2.png" class="rounded"/></div></figure>
+	</div>
+	<div class="col-md-9"> 
+      <!-- story --><figure class="story">
+					<p align="justify">Tracy is a small town teacher. She is planning on joining an upcoming nationwide teachers' strike but she fears that her community would not support her. She wishes she had better resources to defend her decision in her community and convince others to support the strike.</p>
+				<h1>NO ONE CAN TALK TO YOUR FRIENDS BETTER THAN YOU.</br> WE HELP YOU MAKE THE BEST ARGUMENT TO CONVINCE</br> THEM, WITHOUT GATHERING ANY DATA.</h1>
+	</figure>
+	</div>
+</div>
+
+<div class="col-sm-12 animated wow fadeInLeft">
+	<div class="col-md-9 text-right"> 
+  <!--IMPAKT exp --><figure class="experience"><p align="justify">Using Impakt, Tracy had the news and press releases from her union, and reached out to many of her friends. She had relevant information for parents of school-age kids, other public-sector workers and so on. The sharing process was easy and personalised. And best of all - Impakt did not collect any data! Tracy had complete control over the whole process.</p>
+ 					</figure>	
+	</div>
+	<div class="col-md-3"> 
+<!--App screenshot--><figure class="screenshot"><img src="img/community.PNG" width="70%" alt=""></figure>
+	</div>
+</div>
+
+<h2 class="text-uppercase animated wow fadeInLeft">Anyone can have an IMPAKT</h2></br>
+	<div class="col-md-3"> 
+  <!-- character --><figure class="portrait"><div class="image-cropper"><img src="img/jenny2.png" class="rounded"/></div></figure>
+	</div>
+	<div class="col-md-9"> 
+      <!-- story --><figure class="story">
+					<p align="justify">Jenny is a young progressive in a small town. She's shy and fears going to a meeting in a nearby city with politically motivated strangers. But she would like to find a way to help a political cause.</p>
+					<h1> FOR MOST WOULD-BE ACTIVISTS, THE FIRST STEP </br>
+					IS THE HARDEST. IMPAKT MAKES IT EASY.</h1>
+	</figure>
+	</div>
+</div>
+
+<div class="col-sm-12 animated wow fadeInLeft">
+	<div class="col-md-9 text-right"> 
+  <!--IMPAKT exp --><figure class="experience"><p align="justify">When Jenny downloaded her favorite cause's Impakt, she met others like her thanks to the <b>local chat</b>, including several people in her home town. They got together and started brainstorming about what they could do locally. Jenny also used the <b>contact nearest coordinator</b> button to get in touch with organizers and got some logistics help from Matt, the regional coordinator for her area.</p>
+ 					</figure>	
+	</div>
+	<div class="col-md-3"> 
+<!--App screenshot--><figure class="screenshot"><img src="img/agency.PNG" width="70%" alt=""></figure>
+	</div>
+</div>
+
+<div class="col-sm-12 text-left" id="organisers">
+<h2 class="text-uppercase animated wow fadeInLeft">ORGANISE GIG ECONOMY AND REMOTE WORKERS</h2><br>
+	<div class="col-md-3"> 
+  <!-- character --><figure class="portrait"><div class="image-cropper"><img src="img/greg2.png" class="rounded"/></div></figure>
+	</div>
+	<div class="col-md-9"> 
+      <!-- story --><figure class="story"><p align="justify">Greg works on a construction site. He knows that there are many intermediaries between the laborers and the site owner and each of them get a large cut of the money. He thinks the workers could get a fair shake by forming a co-op to be employed directly. But the frequent rotation of workers from site to site makes it difficult to gather numbers.</p>
+				<h1>IMPAKT MAKES IT POSSIBLE FOR TEMPORARY <br>WORKERS AND GIG ECONOMY WORKERS TO ORGANISE.<br></h1>
+	</figure>
+	</div>
+</div>
+
+<div class="col-sm-12 animated wow fadeInLeft">
+	<div class="col-md-9 text-right"> 
+  <!--IMPAKT exp --><figure class="experience"><p align="justify"><p align="justify">Greg decided to set up an instance of Impakt, so that construction workers in the entire country could self-organise regardless of what site they currently work at. They could coordinate events, vote and raise money. As an admin, Greg can also send alerts to anyone in an area for spontaneous gatherings.</p>
+ 					</figure>	
+	</div>
+	<div class="col-md-3"> 
+<!--App screenshot--><figure class="screenshot"><img src="img/convenience.PNG" width="70%" alt=""></figure>
+	</div>
+</div>
+<div class="col-sm-12 text-left">
+<h2 class="text-uppercase animated wow fadeInLeft">ENGAGE WITH YOUR MEMBERS</h2></br>
+	<div class="col-md-3"> 
+  <!-- character --><figure class="portrait"><div class="image-cropper"><img src="img/anna2.png" class="rounded"/></div></figure>
+	</div>
+	<div class="col-md-9"> 
+      <!-- story --><figure class="story">
+					<p align="justify">Maryam is an organiser in an embattled trade union, engaged in heated negotiations. She often needs to make decisions in a matter of hours, but quite often she would like to be able to get input from the union members.</p>
+				
+	</figure>
+	</div>
+</div>
+
+<div class="col-sm-12 animated wow fadeInLeft">
+	<div class="col-md-9 text-left"> 
+  <!--IMPAKT exp --><figure class="experience"><h1 class="text-uppercase">With Impakt, Maryam can create polls for union members,</br>and notify those eligible to vote with a push alert.</h1>
+ 					</figure>	
+	</div>
+	<div class="col-md-3"> 
+<!--App screenshot--><figure class="screenshot"><img src="img/participation2.PNG" width="70%" alt=""></figure>
+	</div>
+</div>	 
+
+<div class="col-sm-12 text-left" id="security">
+<h2 class="text-uppercase animated wow fadeInLeft">EVADE WORKPLACE SURVEILLANCE</h2></br>
+	<div class="col-md-3"> 
+  <!-- character --><figure class="portrait"><div class="image-cropper"><img src="img/pete2.png" class="rounded"/></div></figure>
+	</div>
+	<div class="col-md-9"> 
+      <!-- story --><figure class="story">
+					<p align="justify">Pete works with Greg at the construction site, and he thinks Greg has a lot of great ideas. But he has a family to feed and doesn't want to make waves with the bosses. He's afraid to openly support a union.
+				He was relieved when Greg explained to him that Impakt has <b>domain fronting</b> - that is, the network operator can't see that you're connecting to it.</p>
+	</figure>
+	</div>
+</div>
+
+<div class="col-sm-12 animated wow fadeInLeft">
+	<div class="col-md-9 text-left"> 
+  <!--IMPAKT exp --><figure class="experience"><h1 class="text-uppercase">Even if Pete uses the work wifi, the bosses won't know that he's supporting the movement. Plus the Impakt server doesn't store any</br>identifying information, and Pete never had to so much as give his real name.
+				</h1>
+ 					</figure>	
+	</div>
+	<div class="col-md-3"> 
+<!--App screenshot--><figure class="screenshot"><img src="img/anonymity.PNG" width="70%" alt=""></figure>
+	</div>
+</div>
+<div class="col-sm-12 text-left">
+<h2 class="text-uppercase animated wow fadeInLeft">THE CONTENT OF YOUR PHONE WON'T BETRAY YOU</h2></br>
+	<div class="col-md-3"> 
+  <!-- character --><figure class="portrait"><div class="image-cropper"><img src="img/maryam.png" class="rounded"/></div></figure>
+	</div>
+	<div class="col-md-9"> 
+      <!-- story --><figure class="story">
+					<p align="justify">Barbara lives in a country with mid-level surveillance capabilities and has concerns about rapidly diminishing civil liberties. She would like to get people involved in direct action, but has concerns about repercussions.</p>
+	</figure>
+	</div>
+</div>
+
+<div class="col-sm-12 animated wow fadeInLeft">
+	<div class="col-md-9 text-right"> 
+  <!--IMPAKT exp --><figure class="experience"><p align="justify"><p align="justify">She decided to use <i>Impakt</i> to coordinate, because the app is <i>stateless</i> - if anyone's phone gets seized the app will not show what they have been doing in it. She also likes the fact that all chats are <i>ephemeral</i> - the contents dissapear after a short time. No personal data is being collected by the <i>Impakt</i> server. On any Impakt screen, one can trace two circles to activate a <i>panic alert</i> and notify other members of the movement that they need help. This is the only time that the Impakt app uses a device's location.</p>
+ 					</figure>	
+	</div>
+	<div class="col-md-3"> 
+<!--App screenshot--><figure class="screenshot"><img src="img/ephemerality.PNG" width="70%" alt=""></figure>
+	</div>
+</div></div></section>
+
+	 
+	 
+	 
+
+	<section class="transition1">
+		<div class="container"></div></section>
+
+	<!--  Testimonials Section  -->
 		
-      </div>
+	<section class="testimonials animated wow fadeIn" id="team">
+		<div class="container">
+		<img src="img/solidarity.png" class="animated wow fadeInLeft" data-wow-delay=".4s">
+			<div class="testimonials_list">
+				<ul class="list-unstyled text-center slides clearfix" id="tslider">
+					<li>
+						<blockquote>
+	<!-- left slider <div class="col-md-1 text-center">
+							<div class="#tslider"><div class="owl-controls clickable"><div class="owl-prev" style="margin-top: 150px"></div></div></div>
+						</div> -->
+			<!--photo--><div class="col-md-4 text-center"></br><div class="image-cropper">
+									<img src="img/ceo.png" class="rounded" align="middle"/></div></div>
+						<div class="col-md-8 text-left animated wow fadeInRight" data-wow-delay=".6s">
+						<span class="name text-uppercase">Dr Eva Infeld</span>	
+				        <span class="job">Architect</br></br></span>
+						<p align="justify"> </br>Mathematician, university lecturer, brainstormer, and computer security consultant. She taught at some of the world's best universities and is a designer of network infrastructure, cryptocurrency protocols and educational games. </br></br> Eva received her PhD from Dartmouth in Probabilistic Combinatorics and is a graduate of University of Cambridge and London School of Economics.</p>	
+						</div>		
+	<!-- right slider <div class="col-md-1 text-center">
+							<div class="#tslider"><div class="owl-controls"><div class="owl-next" style="margin-top: 150px"></div></div></div>
+						</div> -->
+						</blockquote>
+					</li>
+					
+					<li>
+						<blockquote>
+	<!-- left slider <div class="col-md-1 text-center">
+							<div class="#tslider"><div class="owl-controls clickable"><div class="owl-prev" style="margin-top: 150px"></div></div></div>
+						</div> -->
+			<!--photo--><div class="col-md-4 text-center"></br><div class="image-cropper">
+									<img src="img/cto.png" class="rounded" align="middle"/></div></div>
+						<div class="col-md-8 text-left animated wow fadeInRight" data-wow-delay=".6s">
+						<span class="name text-uppercase">Bartosz Owczarek</span>	
+				        <span class="job">CTO and Backend Dev</br></br></span>
+						<p align="justify"> </br>After a decade of delivering backend and middleware solutions at major technology corporations, Bartosz has decided to combine his work experience with his passion for grassroots organising.</br></br>In addition to being a telecommunications specialist, he is a gifted coordinator who has led both large corporate projects and the logistics of social movements. Impakt couldn't hope for a better technical lead to ensure smooth development.</p></div>		
+	<!-- right slider <div class="col-md-1 text-center">
+							<div class="#tslider"><div class="owl-controls"><div class="owl-next" style="margin-top: 150px"></div></div></div>
+						</div> -->
+						</blockquote>
+					</li>
 
-      <div class="project-card">
-        <div class="card-icon">
-          <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>
-        </div>
-        <h3>Game Bro Camera</h3>
-        <p>Android app that applies retro graphic filters to the phone's camera feed and media.</p>
-        <div class="card-footer">
-          <span class="tech-tag">Android</span>
-          <span class="tech-tag">Graphics</span>
-          <span class="tech-tag">Shaders</span>
-        </div>
-      </div>
+					<li>
+						<blockquote>
+	<!-- left slider <div class="col-md-1 text-center">
+							<div class="#tslider"><div class="owl-controls clickable"><div class="owl-prev" style="margin-top: 150px"></div></div></div>
+						</div> -->
+			<!--photo--><div class="col-md-4 text-center"></br><div class="image-cropper">
+									<img src="img/basia.png" class="rounded" align="middle"/></div></div>
+						<div class="col-md-8 text-left animated wow fadeInRight" data-wow-delay=".6s">
+						<span class="name text-uppercase">barbara Kłosowska</span>	
+				        <span class="job">Front End Dev</br></br></span>
+						<p align="justify"> </br>Barbara is a React Native sorceress who is usually brought on by big-budget projects to save the development that's falling behind.</br>
+						</br>She laid the foundation for what you can see and play with in the Impakt framework.</p>
+						</div>
+						</blockquote>
+					</li>
 
-    </div>
-  </div>
-</section>
 
-<!-- ===== Game Development ===== -->
-<section class="section" id="gamedev">
-  <div class="container">
-    <div class="section-header">
-      <div class="section-label"> </div>
-      <h2 class="section-title">Game Development</h2>
-    </div>
 
-    <div class="gamedev-grid stagger reveal">
+					
+					
+					<li>
+						<blockquote>
+	<!-- left slider <div class="col-md-1 text-center">
+							<div class="#tslider"><div class="owl-controls clickable"><div class="owl-prev" style="margin-top: 150px"></div></div></div>
+						</div> -->
+			<!--photo--><div class="col-md-4 text-center"></br><div class="image-cropper">
+									<img src="img/cfo.png" class="rounded" align="middle"/></div></div>
+						<div class="col-md-8 text-left animated wow fadeInRight" data-wow-delay=".6s">
+						<span class="name text-uppercase">jan j. Zygmuntowski</span>	
+				        <span class="job">Business Lead</br></br></span>
+						<p align="justify"> </br>Jan is a progressive enterpreneur and economist specializing in digital economy and sustainability. He is the chairman of the board of the Instrat Foundation, and a formerly analyst at the Polish Development Fund.</br></br>He's written on social and economic issues for leading Polish opinion and business media. He advises and supports a number of tech projects with positive social impact. He's a graduate of the Warsaw School of Economics (SGH) and a G20 Global Solutions fellow.</p>
+						</div>
+						</blockquote>
+					</li>
 
-      <div class="gamedev-card">
-        <img src="img/slide-cubetopia.jpg" alt="Cubetopia">
-        <div class="card-body">
-          <div class="role">Developer &middot; Composer &middot; Sound Designer &middot; 3D Artist</div>
-          <h3>Cubetopia</h3>
-          <p>A game about building a better world, made with the support of <a href="https://www.ccc.de/en/home">Chaos Computer Club</a> to celebrate its 42 years of groundbreaking innovation.</p>
-          <div class="project-links">
-            <a href="https://cubetopia.art">Play &#8599;</a>
-          </div>
-        </div>
-      </div>
 
-      <div class="gamedev-card">
-        <img src="img/slide-stars.jpg" alt="S.T.A.R.S. VR">
-        <div class="card-body">
-          <div class="role">Audio Director &middot; Composer &middot; Sound Design &middot; Ambisonics</div>
-          <h3>S.T.A.R.S. VR</h3>
-          <p>Spatial audio direction for a VR experience. Music composition, sound design, and ambisonic audio implementation.</p>
-          <div class="project-links">
-            <a href="https://stars-vr.com/#trailer">Trailer &#8599;</a>
-          </div>
-        </div>
-      </div>
+					<li>
+						<blockquote>
+	<!-- left slider <div class="col-md-1 text-center">
+							<div class="#tslider"><div class="owl-controls clickable"><div class="owl-prev" style="margin-top: 150px"></div></div></div>
+						</div> -->
+			<!--photo--><div class="col-md-4 text-center"></br><div class="image-cropper">
+									<img src="img/ania.png" class="rounded" align="middle"/></div></div>
+						<div class="col-md-8 text-left animated wow fadeInRight" data-wow-delay=".6s">
+						<span class="name text-uppercase">Anna O</span>	
+				        <span class="job">Full Stack Dev</br></br></span>
+						<p align="justify"> </br>Anna is a software developer with diverse experience, which includes a medical AI startup, 5 years of experience in game development and several years as a bioinformatics research fellow at International Institute of Molecular and Cell Biology (IIMCB) in Warsaw. </br></br>
 
-      <div class="gamedev-card">
-        <div class="card-body" style="padding-top:2rem">
-          <div class="role">Various Roles</div>
-          <h3>Deer Island</h3>
-          <p>A thought-provoking game produced by End of the Line. Hired to troubleshoot Unity issues, improve the graphics, and bring the game to release.</p>
-        </div>
-      </div>
+She is also a former lecturer at Poland’s first programming bootcamp, as well as a university-level educator. She graduated from the University of Edinburgh.</p>
+						</div>							
+						</blockquote>
+					</li>
+					
 
-    </div>
-  </div>
-</section>
 
-<!-- ===== Music & Art ===== -->
-<section class="section" id="creative">
-  <div class="container">
-    <div class="section-header">
-      <div class="section-label">Creative</div>
-      <h2 class="section-title">Music &amp; Art</h2>
-      <p class="section-desc">Electronic music production and interactive visual art under the alias ZAGA.</p>
-    </div>
+					<!--						 
+					<li>
+						<blockquote>
+							<span class="author text-uppercase">our team</br></br><img src="img/wojtek.png" width="20%" align="center" > </br> </br>wojciech kuśmierek</span>
+							<span class="job">UX designer</span>
+							<p>	</br>....</p>
 
-    <div class="creative-grid stagger reveal">
+							
+						</blockquote>
+					</li> -->
+				</ul>
+		<div id="slider_nav">
+					<div id="prev_arrow"></div>
+					<div id="next_arrow"></div>
+				</div> 
+			</div>
+		</div>
+	</section>
 
-      <div class="creative-card">
-        <h3>Music</h3>
-        <p>Electronic music production &amp; live performance</p>
-        <div class="creative-links">
-		  <a href="http://zaga.music">Music Page</a>
-          <a href="https://zaga.bandcamp.com/">Bandcamp</a>
-        <!--  <a href="https://open.spotify.com/artist/2TBJle3dsOIA3xOdnAIa3x">Spotify</a> -->
-          <a href="https://soundcloud.com/zaga">SoundCloud</a>
-        </div>
-      </div>
+	<!--  End Testimonials Section  -->
 
-      <div class="creative-card">
-        <h3>Visual &amp; Interactive</h3>
-        <p>3D art, interactive installations, and retro aesthetics</p>
-        <div class="creative-links">
-          <a href="https://www.youtube.com/channel/UCA7NrjsWQXsunhjGJrTFyqw">YouTube</a>
-          <a href="https://cubetopia.art/BPM">Play BPM</a>
-        <!--  <a href="https://www.mixcloud.com/brettpreston/">Mixcloud</a> -->
-        </div>
-      </div>
+	<section class="featured_on" id="contact">
 
-    </div>
-  </div>
-</section>
+		<div class="row text-center">
+				<div class="col-sm-4 col-md-4 details animated wow fadeInDown" data-wow-delay=".0s">Tech Contact:
+					</br> <a href="mailto: evainfeld@riseup.net" class="text-uppercase animated wow fadeInLeft">Dr Eva Infeld</a>
+					
+					</br> <a href="mailto: bjowczarek@riseup.net" class="text-uppercase animated wow fadeInLeft"><span>Bartosz Owczarek</span></a>
+				</div>
+				
+				<div class="col-sm-4 col-md-4 details animated wow fadeInDown" data-wow-delay="0s">Business Contact:</br>
+					<a href="mailto: jan.zygmuntowski@instrat.pl" class="text-uppercase animated wow fadeInLeft"> Jan Z. Zygmuntowski</a>
+					
+				</div>
+				
+				<div class="col-sm-4 col-md-4 details animated wow fadeInDown" data-wow-delay="0s">
+					The Impakt core team is based in Warsaw, Poland.
+				</div>
+		</div>
+	</section>
 
-<!-- ===== Footer / Contact ===== -->
-<footer class="site-footer" id="contact">
-  <div class="container">
-    <div class="footer-social">
-      <!-- GitHub -->
-      <a href="https://github.com/brettpreston" aria-label="GitHub">
-        <svg viewBox="0 0 24 24"><path d="M12 .3a12 12 0 00-3.8 23.38c.6.12.82-.26.82-.58v-2.02c-3.34.73-4.04-1.61-4.04-1.61a3.18 3.18 0 00-1.33-1.76c-1.09-.74.08-.73.08-.73a2.52 2.52 0 011.84 1.24 2.56 2.56 0 003.5 1 2.56 2.56 0 01.76-1.6c-2.67-.3-5.47-1.33-5.47-5.93a4.64 4.64 0 011.24-3.22 4.3 4.3 0 01.12-3.18s1-.32 3.3 1.23a11.38 11.38 0 016 0c2.28-1.55 3.28-1.23 3.28-1.23a4.3 4.3 0 01.12 3.18 4.64 4.64 0 011.23 3.22c0 4.61-2.8 5.63-5.48 5.92a2.86 2.86 0 01.82 2.22v3.29c0 .32.21.7.82.58A12 12 0 0012 .3z"/></svg>
-      </a>
-      <!-- LinkedIn -->
-      <a href="https://www.linkedin.com/in/brett-alexander-preston-3b95a3121/" aria-label="LinkedIn">
-        <svg viewBox="0 0 24 24"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05a3.74 3.74 0 013.37-1.85c3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 11-.01-4.13 2.06 2.06 0 01.01 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77A1.75 1.75 0 000 1.73v20.54A1.75 1.75 0 001.77 24h20.45A1.76 1.76 0 0024 22.27V1.73A1.76 1.76 0 0022.22 0z"/></svg>
-      </a>
-      <!-- Bandcamp -->
-      <a href="https://zaga.bandcamp.com/" aria-label="Bandcamp">
-        <svg viewBox="0 0 24 24"><path d="M0 18.75l7.437-13.5H24l-7.438 13.5H0z"/></svg>
-      </a>
-      <!-- Spotify -->
-      <a href="https://open.spotify.com/artist/2TBJle3dsOIA3xOdnAIa3x" aria-label="Spotify">
-        <svg viewBox="0 0 24 24"><path d="M12 0C5.4 0 0 5.4 0 12s5.4 12 12 12 12-5.4 12-12S18.66 0 12 0zm5.52 17.34c-.24.36-.66.48-1.02.24-2.82-1.74-6.36-2.1-10.56-1.14-.42.12-.78-.18-.9-.54-.12-.42.18-.78.54-.9 4.56-1.02 8.52-.6 11.64 1.32.42.18.48.66.3 1.02zm1.44-3.3c-.3.42-.84.6-1.26.3-3.24-1.98-8.16-2.58-11.94-1.38-.48.12-.99-.12-1.14-.6-.12-.48.12-.99.6-1.14 4.38-1.32 9.78-.66 13.5 1.62.36.18.54.78.24 1.2zm.12-3.36C15.24 8.4 8.82 8.16 5.16 9.3c-.6.18-1.2-.18-1.38-.72-.18-.6.18-1.2.72-1.38 4.26-1.26 11.28-1.02 15.72 1.62.54.3.72 1.02.42 1.56-.3.42-1.02.6-1.56.3z"/></svg>
-      </a>
-      <!-- SoundCloud -->
-      <a href="https://soundcloud.com/zaga" aria-label="SoundCloud">
-        <svg viewBox="0 0 24 24"><path d="M1.175 12.225c-.051 0-.094.046-.101.1l-.233 2.154.233 2.105c.007.058.05.098.101.098.05 0 .09-.04.099-.098l.255-2.105-.27-2.154c-.009-.06-.05-.1-.1-.1m-.899.828c-.06 0-.091.037-.104.094L0 14.479l.172 1.308c.013.06.045.094.104.094.057 0 .09-.037.104-.093l.2-1.31-.2-1.333c-.014-.06-.047-.094-.104-.094m1.8-.712c-.064 0-.11.048-.116.108l-.215 2.04.215 2.068c.006.064.052.108.116.108.063 0 .11-.044.116-.108l.246-2.068-.246-2.04c-.006-.064-.053-.108-.116-.108m.863-.252c-.073 0-.127.055-.133.12l-.198 2.292.198 2.265c.006.07.06.12.133.12.074 0 .127-.05.134-.12l.226-2.265-.226-2.292c-.007-.065-.06-.12-.134-.12m.86-.139c-.083 0-.142.06-.148.132l-.181 2.431.181 2.39c.006.077.065.132.148.132.082 0 .141-.055.148-.132l.207-2.39-.207-2.431c-.007-.072-.066-.132-.148-.132m.87.018c-.09 0-.156.067-.16.145l-.164 2.413.163 2.344c.005.085.07.145.16.145.091 0 .156-.06.162-.145l.186-2.344-.186-2.413c-.006-.078-.072-.145-.162-.145m.87-.128c-.1 0-.171.073-.176.157l-.148 2.541.148 2.345c.005.09.076.157.176.157.098 0 .17-.067.176-.157l.168-2.345-.168-2.541c-.006-.084-.078-.157-.176-.157m.873-.06c-.108 0-.186.08-.19.17l-.131 2.6.131 2.345c.004.097.082.17.19.17.107 0 .185-.073.19-.17l.15-2.345-.15-2.6c-.005-.09-.083-.17-.19-.17m1.744-.196c-.12 0-.204.09-.209.193l-.098 2.803.098 2.345c.005.104.09.193.21.193.117 0 .203-.09.208-.193l.112-2.345-.112-2.803c-.005-.103-.09-.193-.209-.193m.873.055c-.128 0-.218.098-.222.207l-.081 2.748.081 2.345c.004.112.094.207.222.207.127 0 .217-.095.222-.207l.093-2.345-.093-2.748c-.005-.11-.095-.207-.222-.207m1.747-.42c-.022-.008-.048-.012-.073-.012-.128 0-.236.103-.24.22l-.065 3.17.065 2.332c.004.12.112.22.24.22.126 0 .234-.1.24-.22l.074-2.332-.075-3.17c-.004-.12-.113-.218-.24-.218-.024 0-.001 0 .074-.01m.882-.123c-.138 0-.25.11-.254.232l-.048 3.293.048 2.299c.004.13.116.232.254.232.137 0 .249-.103.254-.232l.055-2.299-.055-3.293c-.005-.123-.117-.232-.254-.232m.87-.02c-.147 0-.266.118-.27.245l-.032 3.313.032 2.267c.004.135.123.245.27.245.146 0 .265-.11.27-.245l.037-2.267-.037-3.313c-.005-.127-.124-.245-.27-.245m.87-.028c-.155 0-.281.126-.285.258l-.015 3.34.015 2.237c.004.14.13.258.285.258.154 0 .28-.118.285-.258l.018-2.237-.018-3.34c-.005-.132-.13-.258-.285-.258m2.635 1.182a3.25 3.25 0 00-1.407-.32c-.16 0-.317.015-.472.04-.094.017-.138.067-.144.14v6.014c.006.076.056.14.138.154.01 0 .016.002.024.002h6.86A2.57 2.57 0 0024 14.486a2.57 2.57 0 00-2.572-2.573c-.448 0-.87.116-1.237.318"/></svg>
-      </a>
-      <!-- YouTube -->
-      <a href="https://www.youtube.com/channel/UCA7NrjsWQXsunhjGJrTFyqw" aria-label="YouTube">
-        <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-      </a>
-      <!-- Instagram -->
-      <a href="https://www.instagram.com/7nihilate/" aria-label="Instagram">
-        <svg viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-      </a>
-    </div>
 
-    <p class="footer-email">brett.alexander.preston(at)gmail.com</p>
-    <p class="footer-copy">&copy; Brett Alexander Preston</p>
-  </div>
-</footer>
 
-<!-- Reveal-on-scroll -->
-<script>
-  const observer = new IntersectionObserver((entries) => {
-    entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
-  }, { threshold: 0.12 });
-  document.querySelectorAll('.reveal, .stagger').forEach(el => observer.observe(el));
-</script>
+
+
+
+
+
+
+
+
+
+
+
+	<!--  About Section  
+	<section class="about" id="about">
+	
+	
+	
+	
+	
+		
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+			<div class="col-sm-12 text-center animated wow fadeInRight">
+			    </br></br>
+				<div class="col-md-2 text-center">
+						<img src="img/anna.PNG" width="100%" alt="" titl="">	
+				</div>	
+				<div class="col-md-8 text-center">
+				<p align="justify">Anna is an organiser in an embattled trade union, engaged in heated negotiations. She often needs to make decisions in a matter of hours, but quite often she would like to be able to get input from the union members.</p>
+				<h1 class="text-uppercase">With Impakt, Anna easily create polls for union members, and notify those eligible to vote with a push alert.</h1>
+				</div>	
+				<div class="col-md-2 text-center">
+				<img src="img/participation2.PNG" width="70%" alt="">	
+				</div>	
+			</div>
+			<div class="col-sm-12 text-center animated wow fadeInLeft">
+			    </br></br>
+				<div class="col-md-2 text-center">
+						<img src="img/pete.png" width="100%" alt="" titl="">	
+				</div>	
+				<div class="col-md-8 text-center">
+				<p align="justify">Pete works with Greg at the construction site, and he thinks Greg has a lot of great ideas. But he has a family to feed and doesn't want to make waves with the bosses. He's afraid to openly support a union.
+				He was relieved when Greg explained to him that <i>Impakt</i> has <i>domain fronting</i> - that is, the network operator can't see that you're connecting to it.</p>
+				<h1 class="text-uppercase">So even if Pete uses the work wifi, the bosses won't know that he's supporting the movement.
+				</h1><p>Also, the server doesn't store identifying information, and Pete never had to so much as give his real name.
+				</p>
+				</div>	
+				<div class="col-md-2 text-center">
+				<img src="img/anonymity.PNG" width="100%" alt="">	
+
+				</div>	
+
+			</div>				
+			<div class="col-sm-12 text-center animated wow fadeInRight">
+			    </br></br>
+								<div class="col-md-2 text-center">
+						<img src="img/agnieszka.png" width="100%" alt="" titl="">	
+				</div>	
+				<div class="col-md-8 text-center">
+				<p align="justify">Agnieszka lives in a country with mid-level surveillance capabilities and has concerns about rapidly diminishing civil liberties. She would like to get people involved in direct action, but has concerns about repercussions.
+				</br></br>She decided to use <i>Impakt</i> to coordinate, because the app is <i>stateless</i> - if anyone's phone gets seized the app will not show what they have been doing in it. She also likes the fact that all chats are <i>ephemeral</i> - the contents dissapear after a short time. No personal data is being collected by the <i>Impakt</i> server. On any Impakt screen, one can trace two circles to activate a <i>panic alert</i> and notify other members of the movement that they need help. This is the only time that the Impakt app uses a device's location.</p>
+				</div>	
+				<div class="col-md-2 text-center">
+				<img src="img/ephemerality.PNG" width="70%" alt="">	
+
+				</div>	
+	 
+	 		</div>
+		</div>		
+
+	</section>
+	 End Footer Section      
+	<footer>
+		<ul class="list-unstyled list-inline app_platform">
+			<li class="animated wow fadeInDown" data-wow-delay="0s">
+				<a href=""><img src="img/android_icon.png" alt="" title=""></a>
+			</li>
+			<li class="animated wow fadeInDown" data-wow-delay=".1s">
+				<a href=""><img src="img/ios_icon.png" alt="" title=""></a>
+			</li>
+			<li class="animated wow fadeInDown" data-wow-delay=".2s">
+				<a href=""><img src="img/windows_icon.png" alt="" title=""></a>
+			</li>
+		</ul>
+		
+	</footer>
+-->
+
 
 </body>
 </html>
